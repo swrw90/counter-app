@@ -6,12 +6,12 @@ class Header extends React.Component {
             return (<h3>{item}</h3>);
         });
         return (
-            <div>
+            <div className="jumbotron">
                 <h1>{this.props.brand}</h1>
                 {subBrandElems}
             </div>
         )
     }
-};
+}
 
 export default Header;

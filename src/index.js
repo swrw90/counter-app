@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 
 // import components
 import Header from "./header.js";
+import Counter from "./counter.js";
 
 // import CSS
 import "./index.css";
@@ -15,6 +16,7 @@ class App extends React.Component {
         return (
             <div>
                 <Header brand={myBrand} subBrand={subBrands} />
+                <Counter />
             </div>
         )
     }
